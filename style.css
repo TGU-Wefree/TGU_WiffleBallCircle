@@ -22,5 +22,5 @@ nav {
   a:hover {
       color: dimgray;
       background-color: white;
-      background-clip: border-box;
+      background-size: 100px; 200px;
   }
