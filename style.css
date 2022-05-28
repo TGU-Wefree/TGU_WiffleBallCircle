@@ -15,10 +15,11 @@ nav {
     display: block;
     text-decoration: none;
     color: white;
+    transition: background-color .5s;
     margin-right: 35px;
   }
 
   a:hover {
     color: rgb(15, 154, 218);
-    background:rgba(40,40,250,0.5);
+    background-color: rgba(0, 0, 255, 0.5);
   }
