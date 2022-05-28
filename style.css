@@ -21,5 +21,5 @@ nav {
 
   a:hover {
     color: rgb(15, 154, 218);
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: gray;
   }
