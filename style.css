@@ -20,7 +20,7 @@ nav {
   }
 
   a:hover {
-      color: dimgray;　
-      background-color: rgb(255,255,255);
+      color: dimgray;
+      background-color: white;
       background-clip: padding-box;
   }
