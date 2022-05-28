@@ -15,12 +15,12 @@ nav {
     display: block;
     text-decoration: none;
     color: white;
-    transition: background-color .5s;
+    transition: background-color .8s;
     margin-right: 35px;
   }
 
   a:hover {
-      color: dimgray;
-      background-clip: padding-box;　
+      color: dimgray;　
       background-color: rgb(255,255,255);
+      background-clip: padding-box;
   }
