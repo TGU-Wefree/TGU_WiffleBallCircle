@@ -5,11 +5,10 @@ nav {
     box-sizing: border-box;
   }
   @keyframes bg-color {
-    0% { background-color: #f1c40f; }
-    25% { background-color: #1abc9c; }
-    50% { background-color: #3498db; }
-    75% { background-color: #9b59b6; }
-    100% { background-color: #f1c40f; }
+    0% { background-color: #1abc9c; }
+    33% { background-color: #3498db; }
+    66% { background-color: #9b59b6; }
+    100% { background-color: #1abc9c; }
   }
   ul {
     display: flex;
@@ -20,14 +19,14 @@ nav {
   a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: background-color .8s;
     margin-right: 35px;
   }
 
   a:hover {
-      color: rgb(77, 77, 77);
       background-color: white;
+      color: black;
       height:auto;
       width:auto;
   }
@@ -39,19 +38,26 @@ nav {
     background-color: white;
   }
   body {
-    background-color: #e74c3c;
+    background-color: #1abc9c;
     animation: bg-color 30s infinite;
     height: 100px;
-    text-align:center;
     vertical-align: middle;
   }
   .massage{
     background-color: white;
+    color: black;
+  }
+  .box{
+    display:inline-block;
   }
   .block1 {
-    background-color : white ;
+    color:black;
   }
 
   .block2 {
     background-color : rgb(246, 210, 169) ;
+  }
+
+  html {
+    color:white
   }
