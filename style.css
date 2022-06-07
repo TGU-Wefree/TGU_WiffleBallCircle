@@ -40,7 +40,7 @@ nav {
   }
   body {
     background-color: #e74c3c;
-    animation: bg-color 40s infinite;
+    animation: bg-color 30s infinite;
     height: 100px;
     text-align:center;
     vertical-align: middle;
