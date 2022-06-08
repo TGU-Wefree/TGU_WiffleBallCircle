@@ -23,7 +23,7 @@ window.contact.send = function(){
 }
 
 window.contact.ajax = function(data){
-    var url = 'https://docs.google.com/spreadsheets/d/1WzGm_dkzZVWysN7eEgLkD4gu4zYn5UkeE6OsqHymsII/edit#gid=0'; // Change here: Your GAS URL here
+    var url = 'https://script.google.com/macros/s/AKfycby7dAZG6gyOBMVpomeKp7Za3_TMKEXlHnSLgnYkortmf2ZC_N2MN2BH6avvFF1OHpU/exec'; // Change here: Your GAS URL here
     $.ajax({
         url: url,
         type:'POST',
