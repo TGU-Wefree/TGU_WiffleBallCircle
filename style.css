@@ -3,6 +3,7 @@ nav {
     height: 70px;
     padding-top: 5px;
     box-sizing: border-box;
+    margin-bottom: 15px;
   }
   @keyframes bg-color {
     0% { background-color: #1abc9c; }
@@ -16,19 +17,38 @@ nav {
   li {
     list-style: none;
   }
-  a {
-    display: block;
+  nav a {
     text-decoration: none;
-    color: white;
-    transition: background-color .8s;
-    margin-right: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px 30px;
+    outline: 1px solid;
+    outline-color: white;
+    outline-offset: 0px;
+    display: inline-block;
+    transition: .3s;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
-  a:hover {
-      background-color: white;
-      color: black;
-      height:auto;
-      width:auto;
+  nav a:hover{
+    animation: light .8s infinite;
+  }
+
+  .menu a{
+    outline-width: 40px;
+    outline-color: white;
+    background-color: #fff;
+    color: black;
+    display: block;
+  }
+
+  @keyframes light {
+    100% { 
+      outline-color: transparent;
+      outline-offset: 12px;
+    }
   }
 
   .container  {
@@ -47,11 +67,15 @@ nav {
     background-color: white;
     color: black;
   }
+  .menu{
+    margin-right: 30px;
+  }
   .box{
     display:inline-block;
   }
   .block1 {
     color:black;
+    margin-left: 100px;
   }
 
   .block2 {
@@ -60,4 +84,13 @@ nav {
 
   html {
     color:white
+  }
+
+  .current{
+    background-color: white;
+    color:black;
+  }
+
+  head{
+    font-family: "Comic Sans MS","Yu Gothic";
   }
