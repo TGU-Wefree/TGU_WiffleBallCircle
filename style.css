@@ -82,6 +82,7 @@ nav {
   .block2 {
     background-color : rgb(246, 210, 169) ;
     word-break: break-all;
+    margin-left: 100px
   }
 
   html {
