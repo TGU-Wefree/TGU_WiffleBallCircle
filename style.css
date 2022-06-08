@@ -76,11 +76,13 @@ nav {
   .block1 {
     color:black;
     margin-left: 100px;
+    word-break: break-all;
   }
 
   .block2 {
     background-color : rgb(246, 210, 169) ;
     margin-left: 100px;
+    word-break: break-all;
   }
 
   html {
