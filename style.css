@@ -55,17 +55,19 @@ nav {
     margin : 30px ;
     padding : 20px ;
     border : 5px solid white ;
-    background-color: white;
+    color: white;
+    background-image:linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0),  url("Top_photo.jpg");
+    word-break: break-word;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    background-size:contain;
+    background-attachment:fixed;
   }
   body {
     background-color: #1abc9c;
     animation: bg-color 30s infinite;
     height: 100px;
     vertical-align: middle;
-  }
-  .massage{
-    background-color: white;
-    color: black;
   }
   .menu{
     margin-right: 30px;
@@ -74,14 +76,19 @@ nav {
     display:inline-block;
   }
   .block1 {
-    color:black;
     margin-left: 100px;
-    word-break: break-all;
+    word-break: break-word;
+    margin-left: 100px;
   }
 
   .block2 {
-    background-color : rgb(246, 210, 169) ;
-    word-break: break-all;
+    background-color :whitesmoke ;
+    word-break: break-word;
+    margin-right: 100px;
+    color: black;
+  }
+  .block3 {
+    margin-left: 100px;
   }
 
   html {
@@ -95,4 +102,14 @@ nav {
 
   head{
     font-family: "Comic Sans MS","Yu Gothic";
+  }
+
+  .center{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer a{
+    color: white;
   }
