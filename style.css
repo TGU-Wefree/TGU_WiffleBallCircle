@@ -56,18 +56,18 @@ nav {
     padding : 20px ;
     border : 5px solid white ;
     color: white;
-    background-image:linear-gradient(140deg, #00f3ffA0, #0028b960 40%, #00f3ff60 60%, #00f3ffA0),  url("Top_photo.jpg");
+  }
+  body {
+    animation: bg-color 30s infinite;
+    height: 100px;
+    vertical-align: middle;
+    background-image:url("Top_photo.jpg");
+    
     word-break: break-word;
     background-repeat: no-repeat;
     background-position:50% 50%;
     background-size:contain;
     background-attachment:fixed;
-  }
-  body {
-    background-color: #1abc9c;
-    animation: bg-color 30s infinite;
-    height: 100px;
-    vertical-align: middle;
   }
   .menu{
     margin-right: 30px;
