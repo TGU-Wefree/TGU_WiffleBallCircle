@@ -4,6 +4,7 @@ nav {
     padding-top: 5px;
     box-sizing: border-box;
     margin-bottom: 15px;
+    position: static;
   }
   @keyframes bg-color {
     0% { background-color: #1abc9c; }
