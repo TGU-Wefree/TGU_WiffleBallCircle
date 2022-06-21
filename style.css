@@ -1,10 +1,11 @@
 nav {
     width: 100%;
     height: 70px;
-    padding-top: 5px;
     box-sizing: border-box;
-    margin-bottom: 15px;
-    position: static;
+    position: fixed;
+    top:60;
+    background-position-y: 15px;
+    padding-bottom: 15px;
   }
   @keyframes bg-color {
     0% { background-color: #1abc9c; }
@@ -31,6 +32,7 @@ nav {
     transition: .3s;
     margin-right: 10px;
     margin-left: 10px;
+    background-color:gray;
   }
 
   nav a:hover{
@@ -59,15 +61,13 @@ nav {
     color: white;
   }
   body {
-    animation: bg-color 30s infinite;
+  /*  animation: bg-color 30s infinite;*/
+    background-image:linear-gradient( 135deg,rgba(160,160,40,0.4), rgba(100, 100, 255, 0.4), rgba(161, 0, 200, 0.4)),url(Top_photo.jpg);
+    background-size: cover;
     height: 100px;
     vertical-align: middle;
-    background-image:url("Top_photo.jpg");
-    
     word-break: break-word;
     background-repeat: no-repeat;
-    background-position:50% 50%;
-    background-size:contain;
     background-attachment:fixed;
   }
   .menu{
@@ -83,7 +83,6 @@ nav {
   }
 
   .block2 {
-    background-color :whitesmoke ;
     word-break: break-word;
     margin-right: 100px;
     color: black;
