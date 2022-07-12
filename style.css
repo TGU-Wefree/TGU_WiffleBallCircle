@@ -120,3 +120,9 @@ nav {
   a{
     color: white;
   }
+
+  .blog{
+    width: 800px;
+    display: flex;
+    align-items: center;
+  }
