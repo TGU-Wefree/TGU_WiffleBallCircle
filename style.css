@@ -126,3 +126,7 @@ nav {
     display: flex;
     align-items: center;
   }
+
+  .number{
+    font-size: 200px;
+  }
